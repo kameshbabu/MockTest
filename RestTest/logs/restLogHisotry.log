@@ -1,0 +1,816 @@
+2020-07-23 11:05:47 INFO  [RestMethods] getMockTest
+ 412020-07-23 11:05:51 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://localhost:8080
+ 1612020-07-23 11:05:51 DEBUG [DefaultClientConnectionOperator] Connecting to localhost:8080
+ 1772020-07-23 11:05:51 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 11:05:51 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 11:05:51 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 11:05:51 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 11:05:51 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 11:05:51 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 11:05:51 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  >> "Host: localhost:8080[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 11:05:51 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 11:05:51 DEBUG [headers] >> Host: localhost:8080
+ 2812020-07-23 11:05:51 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 11:05:51 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 11:05:51 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 11:05:51 DEBUG [wire]  << "HTTP/1.1 404 Not Found[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "Content-Length: 450[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "Server: Jetty(9.4.27.v20200227)[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 11:05:51 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 404 Not Found
+ 2592020-07-23 11:05:51 DEBUG [headers] << HTTP/1.1 404 Not Found
+ 2622020-07-23 11:05:51 DEBUG [headers] << X-Content-Type-Options: nosniff
+ 2652020-07-23 11:05:51 DEBUG [headers] << Cache-Control: must-revalidate,no-cache,no-store
+ 2652020-07-23 11:05:51 DEBUG [headers] << Content-Type: text/html;charset=iso-8859-1
+ 2652020-07-23 11:05:51 DEBUG [headers] << Content-Length: 450
+ 2652020-07-23 11:05:51 DEBUG [headers] << Server: Jetty(9.4.27.v20200227)
+ 2652020-07-23 11:05:51 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 11:05:51 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/html;charset=iso-8859-1
+ 5452020-07-23 11:05:51 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 11:05:51 DEBUG [wire]  << "<html>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<head>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<title>Error 404 Not Found</title>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "</head>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<body><h2>HTTP ERROR 404 Not Found</h2>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<table>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<tr><th>URI:</th><td>/apitest</td></tr>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<tr><th>STATUS:</th><td>404</td></tr>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<tr><th>MESSAGE:</th><td>Not Found</td></tr>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<tr><th>SERVLET:</th><td>Stapler</td></tr>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "</table>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.27.v20200227</a><hr/>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "</body>[\n]"
+ 732020-07-23 11:05:51 DEBUG [wire]  << "</html>[\n]"
+ 732020-07-23 11:05:51 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@36b0fcd5
+ 2002020-07-23 11:05:51 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 11:05:51 INFO  [MockTestPostive] TokenResponseio.restassured.internal.RestAssuredResponseImpl@6b5966e1
+ 202020-07-23 11:06:21 INFO  [RestMethods] getMockTest
+ 412020-07-23 11:06:25 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://localhost:8080
+ 1612020-07-23 11:06:25 DEBUG [DefaultClientConnectionOperator] Connecting to localhost:8080
+ 1772020-07-23 11:06:25 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 11:06:25 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 11:06:25 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 11:06:25 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 11:06:25 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 11:06:25 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 11:06:25 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  >> "Host: localhost:8080[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 11:06:25 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 11:06:25 DEBUG [headers] >> Host: localhost:8080
+ 2812020-07-23 11:06:25 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 11:06:25 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 11:06:25 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 11:06:25 DEBUG [wire]  << "HTTP/1.1 404 Not Found[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "X-Content-Type-Options: nosniff[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "Content-Length: 450[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "Server: Jetty(9.4.27.v20200227)[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 11:06:25 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 404 Not Found
+ 2592020-07-23 11:06:25 DEBUG [headers] << HTTP/1.1 404 Not Found
+ 2622020-07-23 11:06:25 DEBUG [headers] << X-Content-Type-Options: nosniff
+ 2652020-07-23 11:06:25 DEBUG [headers] << Cache-Control: must-revalidate,no-cache,no-store
+ 2652020-07-23 11:06:25 DEBUG [headers] << Content-Type: text/html;charset=iso-8859-1
+ 2652020-07-23 11:06:25 DEBUG [headers] << Content-Length: 450
+ 2652020-07-23 11:06:25 DEBUG [headers] << Server: Jetty(9.4.27.v20200227)
+ 2652020-07-23 11:06:25 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 11:06:25 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: text/html;charset=iso-8859-1
+ 5452020-07-23 11:06:25 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 11:06:25 DEBUG [wire]  << "<html>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<head>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<title>Error 404 Not Found</title>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "</head>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<body><h2>HTTP ERROR 404 Not Found</h2>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<table>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<tr><th>URI:</th><td>/apitest</td></tr>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<tr><th>STATUS:</th><td>404</td></tr>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<tr><th>MESSAGE:</th><td>Not Found</td></tr>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<tr><th>SERVLET:</th><td>Stapler</td></tr>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "</table>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "<hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.27.v20200227</a><hr/>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "</body>[\n]"
+ 732020-07-23 11:06:25 DEBUG [wire]  << "</html>[\n]"
+ 732020-07-23 11:06:25 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@36b0fcd5
+ 2002020-07-23 11:06:25 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 11:06:26 INFO  [MockTestPostive] TokenResponseio.restassured.internal.RestAssuredResponseImpl@6b5966e1
+ 202020-07-23 11:07:32 INFO  [RestMethods] getMockTest
+ 412020-07-23 11:07:49 INFO  [RestMethods] getMockTest
+ 412020-07-23 11:34:01 INFO  [RestMethods] getMockTest
+ 412020-07-23 11:41:08 INFO  [RestMethods] getMockTest
+ 412020-07-23 11:41:10 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 11:41:10 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 11:41:10 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 11:41:10 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 11:41:10 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 11:41:10 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 11:41:10 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 11:41:10 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 11:41:10 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 11:41:10 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 11:41:10 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 11:41:10 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 11:41:10 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 11:41:10 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 11:41:10 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 11:41:10 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 11:41:10 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 11:41:10 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 11:41:10 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 11:41:10 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 11:41:10 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 11:41:11 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "X-Cloud-Trace-Context: 14b3bdf717f9c143c188c794b13754d6[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 06:11:11 GMT[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 11:41:11 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 11:41:11 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 11:41:11 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 11:41:11 DEBUG [headers] << X-Cloud-Trace-Context: 14b3bdf717f9c143c188c794b13754d6
+ 2652020-07-23 11:41:11 DEBUG [headers] << Date: Thu, 23 Jul 2020 06:11:11 GMT
+ 2652020-07-23 11:41:11 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 11:41:11 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 11:41:11 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 11:41:11 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 11:41:11 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 11:41:11 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 11:41:11 DEBUG [wire]  << "}"
+ 872020-07-23 11:41:11 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d10e0b1
+ 2002020-07-23 11:41:11 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 11:41:11 INFO  [MockTestPostive] TokenResponseio.restassured.internal.RestAssuredResponseImpl@40dd3977
+ 202020-07-23 12:23:07 INFO  [RestMethods] getMockTest
+ 412020-07-23 12:23:10 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 12:23:10 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 12:23:10 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 12:23:10 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 12:23:10 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 12:23:10 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 12:23:10 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 12:23:10 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 12:23:10 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 12:23:10 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 12:23:10 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 12:23:10 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 12:23:10 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 12:23:10 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 12:23:10 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  << "X-Cloud-Trace-Context: a8b7a5be213b627d3ca0dc3737817923[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 06:53:11 GMT[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 12:23:10 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 12:23:10 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 12:23:10 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 12:23:10 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 12:23:10 DEBUG [headers] << X-Cloud-Trace-Context: a8b7a5be213b627d3ca0dc3737817923
+ 2652020-07-23 12:23:10 DEBUG [headers] << Date: Thu, 23 Jul 2020 06:53:11 GMT
+ 2652020-07-23 12:23:10 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 12:23:10 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 12:23:10 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 12:23:11 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 12:23:11 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 12:23:11 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 12:23:11 DEBUG [wire]  << "}"
+ 872020-07-23 12:23:11 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d10e0b1
+ 2002020-07-23 12:23:11 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 12:23:11 INFO  [MockTestPostive] Mock Response: io.restassured.internal.RestAssuredResponseImpl@40dd3977
+ 362020-07-23 12:24:10 INFO  [RestMethods] getMockTest
+ 412020-07-23 12:24:12 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 12:24:12 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 12:24:12 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 12:24:12 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 12:24:12 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 12:24:12 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 12:24:12 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 12:24:12 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 12:24:12 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 12:24:12 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 12:24:12 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 12:24:12 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 12:24:12 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 12:24:12 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 12:24:12 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "X-Cloud-Trace-Context: 08aafa2dd9d7464589011b4693ab4b21[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 06:54:12 GMT[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 12:24:12 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 12:24:12 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 12:24:12 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 12:24:12 DEBUG [headers] << X-Cloud-Trace-Context: 08aafa2dd9d7464589011b4693ab4b21
+ 2652020-07-23 12:24:12 DEBUG [headers] << Date: Thu, 23 Jul 2020 06:54:12 GMT
+ 2652020-07-23 12:24:12 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 12:24:12 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 12:24:12 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 12:24:12 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 12:24:12 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 12:24:12 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 12:24:12 DEBUG [wire]  << "}"
+ 872020-07-23 12:24:12 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d10e0b1
+ 2002020-07-23 12:24:12 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 12:24:12 INFO  [MockTestPostive] Mock Response: io.restassured.internal.RestAssuredResponseImpl@40dd3977
+ 362020-07-23 12:39:19 INFO  [RestMethods] getMockTest
+ 412020-07-23 12:39:21 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 12:39:21 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 12:39:21 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 12:39:21 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 12:39:21 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 12:39:21 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 12:39:21 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 12:39:21 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 12:39:21 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 12:39:21 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 12:39:21 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 12:39:21 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 12:39:21 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 12:39:21 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 12:39:21 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 12:39:21 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 12:39:21 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 12:39:21 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 12:39:21 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 12:39:21 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 12:39:21 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 12:39:22 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "X-Cloud-Trace-Context: 4d2be8973988dd905d68aeaaf5df98a9[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 07:09:22 GMT[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 12:39:22 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 12:39:22 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 12:39:22 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 12:39:22 DEBUG [headers] << X-Cloud-Trace-Context: 4d2be8973988dd905d68aeaaf5df98a9
+ 2652020-07-23 12:39:22 DEBUG [headers] << Date: Thu, 23 Jul 2020 07:09:22 GMT
+ 2652020-07-23 12:39:22 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 12:39:22 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 12:39:22 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 12:39:22 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 12:39:22 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 12:39:22 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 12:39:22 DEBUG [wire]  << "}"
+ 872020-07-23 12:39:22 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d10e0b1
+ 2002020-07-23 12:39:22 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 12:39:22 INFO  [MockTestPostive] Mock Response: io.restassured.internal.RestAssuredResponseImpl@40dd3977
+ 362020-07-23 14:48:37 INFO  [RestMethods] getMockTest
+ 412020-07-23 14:48:39 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 14:48:39 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 14:48:39 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 14:48:39 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 14:48:39 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 14:48:39 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 14:48:39 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 14:48:39 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 14:48:39 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 14:48:39 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 14:48:39 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 14:48:39 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 14:48:39 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 14:48:39 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 14:48:39 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 14:48:39 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 14:48:39 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 14:48:39 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 14:48:39 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 14:48:39 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 14:48:39 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 14:48:40 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "X-Cloud-Trace-Context: c8869a74ea09d3e4e79ae760ceba9bd9[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 09:18:40 GMT[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 14:48:40 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 14:48:40 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 14:48:40 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 14:48:40 DEBUG [headers] << X-Cloud-Trace-Context: c8869a74ea09d3e4e79ae760ceba9bd9
+ 2652020-07-23 14:48:40 DEBUG [headers] << Date: Thu, 23 Jul 2020 09:18:40 GMT
+ 2652020-07-23 14:48:40 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 14:48:40 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 14:48:40 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 14:48:40 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 14:48:40 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 14:48:40 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 14:48:40 DEBUG [wire]  << "}"
+ 872020-07-23 14:48:40 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1c98290c
+ 2002020-07-23 14:48:40 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 14:48:40 INFO  [MockTestPostive] Mock Response: com.rest.igtest.pojo.ApiTest@4a8b5227
+ 412020-07-23 14:49:21 INFO  [RestMethods] getMockTest
+ 412020-07-23 14:49:22 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 14:49:23 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 14:49:23 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 14:49:23 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 14:49:23 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 14:49:23 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 14:49:23 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 14:49:23 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 14:49:23 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 14:49:23 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 14:49:23 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 14:49:23 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 14:49:23 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 14:49:23 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 14:49:23 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "X-Cloud-Trace-Context: 70abb5cc3318bdc2d626c86ed30aed3f[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 09:19:24 GMT[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 14:49:23 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 14:49:23 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 14:49:23 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 14:49:23 DEBUG [headers] << X-Cloud-Trace-Context: 70abb5cc3318bdc2d626c86ed30aed3f
+ 2652020-07-23 14:49:23 DEBUG [headers] << Date: Thu, 23 Jul 2020 09:19:24 GMT
+ 2652020-07-23 14:49:23 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 14:49:23 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 14:49:23 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 14:49:23 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 14:49:23 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 14:49:23 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 14:49:23 DEBUG [wire]  << "}"
+ 872020-07-23 14:49:23 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d10e0b1
+ 2002020-07-23 14:49:23 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 14:49:24 INFO  [MockTestPostive] Mock Response: com.rest.igtest.pojo.ApiTest@4a8b5227
+ 422020-07-23 15:17:26 INFO  [RestMethods] getMockTest
+ 412020-07-23 15:17:28 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 15:17:28 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 15:17:28 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 15:17:28 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 15:17:28 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 15:17:28 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 15:17:28 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 15:17:28 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 15:17:28 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 15:17:28 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 15:17:28 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 15:17:28 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 15:17:28 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 15:17:28 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 15:17:28 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  << "X-Cloud-Trace-Context: be4b78ada631bcb417a5851a5f025c09[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 09:47:29 GMT[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 15:17:28 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 15:17:28 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 15:17:28 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 15:17:28 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 15:17:28 DEBUG [headers] << X-Cloud-Trace-Context: be4b78ada631bcb417a5851a5f025c09
+ 2652020-07-23 15:17:28 DEBUG [headers] << Date: Thu, 23 Jul 2020 09:47:29 GMT
+ 2652020-07-23 15:17:28 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 15:17:28 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 15:17:28 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 15:17:28 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 15:17:28 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 15:17:29 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 15:17:29 DEBUG [wire]  << "}"
+ 872020-07-23 15:17:29 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2d10e0b1
+ 2002020-07-23 15:17:29 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 15:17:29 INFO  [MockTestPostive] Mock Response: com.rest.igtest.pojo.ApiTest@4a8b5227
+ 442020-07-23 15:23:00 INFO  [RestMethods] getMockTest
+ 412020-07-23 15:23:02 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 15:23:02 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 15:23:02 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 15:23:02 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 15:23:02 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 15:23:02 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 15:23:02 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 15:23:02 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 15:23:02 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 15:23:02 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 15:23:02 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 15:23:02 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 15:23:02 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 15:23:02 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 15:23:02 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 15:23:02 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 15:23:02 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 15:23:02 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 15:23:02 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 15:23:02 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 15:23:02 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 15:23:03 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "X-Cloud-Trace-Context: 4c1dc3da19d19a1151924c788484e3ee[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 09:53:04 GMT[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 15:23:03 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 15:23:03 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 15:23:03 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 15:23:03 DEBUG [headers] << X-Cloud-Trace-Context: 4c1dc3da19d19a1151924c788484e3ee
+ 2652020-07-23 15:23:03 DEBUG [headers] << Date: Thu, 23 Jul 2020 09:53:04 GMT
+ 2652020-07-23 15:23:03 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 15:23:03 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 15:23:03 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 15:23:03 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 15:23:03 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 15:23:03 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 15:23:03 DEBUG [wire]  << "}"
+ 872020-07-23 15:23:03 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@53ab0286
+ 2002020-07-23 15:23:03 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 15:23:04 INFO  [MockTestPostive] Mock Response: com.rest.igtest.pojo.ApiTest@25230246
+ 442020-07-23 15:23:04 INFO  [RestMethods] getMockTest
+ 412020-07-23 15:23:04 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 15:23:04 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 15:23:04 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 15:23:04 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 15:23:04 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 15:23:04 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 15:23:04 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 15:23:04 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 15:23:04 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 15:23:04 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 15:23:04 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 15:23:04 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 15:23:04 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 15:23:04 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 15:23:04 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "X-Cloud-Trace-Context: 3071b0e503b59e33e2e2cf7c32292c79[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 09:53:05 GMT[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 15:23:04 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 15:23:04 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 15:23:04 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 15:23:04 DEBUG [headers] << X-Cloud-Trace-Context: 3071b0e503b59e33e2e2cf7c32292c79
+ 2652020-07-23 15:23:04 DEBUG [headers] << Date: Thu, 23 Jul 2020 09:53:05 GMT
+ 2652020-07-23 15:23:04 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 15:23:04 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 15:23:04 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 15:23:04 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 15:23:04 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 15:23:04 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  << "}"
+ 872020-07-23 15:23:04 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@12365c88
+ 2002020-07-23 15:23:04 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 15:23:04 INFO  [MockTestPostive] Mock Response: com.rest.igtest.pojo.ApiTest@2237bada
+ 642020-07-23 15:23:04 INFO  [RestMethods] getMockTest
+ 412020-07-23 15:23:04 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 15:23:04 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 15:23:04 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 15:23:04 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 15:23:04 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 15:23:04 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 15:23:04 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 15:23:04 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 15:23:04 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 15:23:04 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 15:23:04 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 15:23:04 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 15:23:04 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 15:23:04 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 15:23:04 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 15:23:05 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "X-Cloud-Trace-Context: a0bf974dcbab220586a30a8d328de57f[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 09:53:05 GMT[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 15:23:05 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 15:23:05 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 15:23:05 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 15:23:05 DEBUG [headers] << X-Cloud-Trace-Context: a0bf974dcbab220586a30a8d328de57f
+ 2652020-07-23 15:23:05 DEBUG [headers] << Date: Thu, 23 Jul 2020 09:53:05 GMT
+ 2652020-07-23 15:23:05 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 15:23:05 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 15:23:05 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 15:23:05 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 15:23:05 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 15:23:05 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "}"
+ 872020-07-23 15:23:05 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@61019f59
+ 2002020-07-23 15:23:05 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 15:23:05 INFO  [MockTestPostive] Mock Response: com.rest.igtest.pojo.ApiTest@26f3d90c
+ 542020-07-23 15:23:05 INFO  [RestMethods] getMockTest
+ 412020-07-23 15:23:05 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 15:23:05 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 15:23:05 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 15:23:05 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 15:23:05 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 15:23:05 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 15:23:05 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 15:23:05 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 15:23:05 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 15:23:05 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 15:23:05 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 15:23:05 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 15:23:05 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 15:23:05 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 15:23:05 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "X-Cloud-Trace-Context: a0199fd76c5431ec46efc5d46214158e[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 09:53:06 GMT[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 15:23:05 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 15:23:05 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 15:23:05 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 15:23:05 DEBUG [headers] << X-Cloud-Trace-Context: a0199fd76c5431ec46efc5d46214158e
+ 2652020-07-23 15:23:05 DEBUG [headers] << Date: Thu, 23 Jul 2020 09:53:06 GMT
+ 2652020-07-23 15:23:05 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 15:23:05 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 15:23:05 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 15:23:05 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 15:23:05 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 15:23:05 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  << "}"
+ 872020-07-23 15:23:05 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@236ab296
+ 2002020-07-23 15:23:05 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 15:23:05 INFO  [MockTestPostive] Mock Response: io.restassured.internal.RestAssuredResponseImpl@5c84624f
+ 352020-07-23 15:23:05 INFO  [RestMethods] getMockTest
+ 412020-07-23 15:23:05 DEBUG [BasicClientConnectionManager] Get connection for route {}->http://demo4032024.mockable.io:80
+ 1612020-07-23 15:23:05 DEBUG [DefaultClientConnectionOperator] Connecting to demo4032024.mockable.io:80
+ 1772020-07-23 15:23:05 DEBUG [RequestAddCookies] CookieSpec selected: ignoreCookies
+ 1232020-07-23 15:23:05 DEBUG [RequestAuthCache] Auth cache not set in the context
+ 772020-07-23 15:23:05 DEBUG [RequestTargetAuthentication] Target auth state: UNCHALLENGED
+ 802020-07-23 15:23:05 DEBUG [RequestProxyAuthentication] Proxy auth state: UNCHALLENGED
+ 892020-07-23 15:23:05 DEBUG [DefaultHttpClient] Attempt 1 to execute request
+ 6822020-07-23 15:23:05 DEBUG [DefaultClientConnection] Sending request: GET /apitest HTTP/1.1
+ 2742020-07-23 15:23:05 DEBUG [wire]  >> "GET /apitest HTTP/1.1[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "Accept: */*[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "Host: demo4032024.mockable.io[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "Connection: Keep-Alive[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [wire]  >> "[\r][\n]"
+ 732020-07-23 15:23:05 DEBUG [headers] >> GET /apitest HTTP/1.1
+ 2782020-07-23 15:23:05 DEBUG [headers] >> Accept: */*
+ 2812020-07-23 15:23:05 DEBUG [headers] >> Host: demo4032024.mockable.io
+ 2812020-07-23 15:23:05 DEBUG [headers] >> Connection: Keep-Alive
+ 2812020-07-23 15:23:05 DEBUG [headers] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+ 2812020-07-23 15:23:05 DEBUG [headers] >> Accept-Encoding: gzip,deflate
+ 2812020-07-23 15:23:06 DEBUG [wire]  << "HTTP/1.1 200 OK[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "access-control-allow-origin: *[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "X-Cloud-Trace-Context: 4657572bb55b9dd402bd8db4d458c8bd[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "Date: Thu, 23 Jul 2020 09:53:06 GMT[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "Server: Google Frontend[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "Content-Length: 282[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [DefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+ 2592020-07-23 15:23:06 DEBUG [headers] << HTTP/1.1 200 OK
+ 2622020-07-23 15:23:06 DEBUG [headers] << access-control-allow-origin: *
+ 2652020-07-23 15:23:06 DEBUG [headers] << Content-Type: application/json; charset=UTF-8
+ 2652020-07-23 15:23:06 DEBUG [headers] << X-Cloud-Trace-Context: 4657572bb55b9dd402bd8db4d458c8bd
+ 2652020-07-23 15:23:06 DEBUG [headers] << Date: Thu, 23 Jul 2020 09:53:06 GMT
+ 2652020-07-23 15:23:06 DEBUG [headers] << Server: Google Frontend
+ 2652020-07-23 15:23:06 DEBUG [headers] << Content-Length: 282
+ 2652020-07-23 15:23:06 DEBUG [DefaultHttpClient] Connection can be kept alive indefinitely
+ 5092020-07-23 15:23:06 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsing response as: application/json; charset=UTF-8
+ 5452020-07-23 15:23:06 DEBUG [RequestSpecificationImpl$RestAssuredHttpBuilder] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 5482020-07-23 15:23:06 DEBUG [wire]  << "{[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "  "status": 200,[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "  "employeeData": [[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "    {[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "      "id": "101209986",[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "      "age": 25,[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "      "name": "EmployeeName",[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "      "dob": "25-02-1994",[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "      "company": "IG Infotech",[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "      "role": "QA Automation Developer"[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "    }[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "  ],[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "  "message": "data retrieved successful"[\r][\n]"
+ 732020-07-23 15:23:06 DEBUG [wire]  << "}"
+ 872020-07-23 15:23:06 DEBUG [BasicClientConnectionManager] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2a415aa9
+ 2002020-07-23 15:23:06 DEBUG [BasicClientConnectionManager] Connection can be kept alive indefinitely
+ 2252020-07-23 15:23:06 INFO  [MockTestPostive] Mock response: io.restassured.internal.RestAssuredResponseImpl@53cdecf6
+ 27
